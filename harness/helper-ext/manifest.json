@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "VT harness helper (local test only)",
+  "version": "0.2",
+  "description": "Builds tab/group layouts for the theme's visual tests. Never published.",
+  "permissions": [
+    "tabs",
+    "tabGroups"
+  ],
+  "background": {
+    "service_worker": "sw.js"
+  }
+}

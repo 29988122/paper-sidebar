@@ -1,0 +1,6 @@
+build/
+dist/
+shots/
+**/Cached Theme.pak
+__pycache__/
+.DS_Store

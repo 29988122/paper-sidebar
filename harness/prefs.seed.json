@@ -1,0 +1,16 @@
+{
+  "vertical_tabs": {
+    "enabled": true,
+    "enabled_first_time": true,
+    "collapsed_state": false,
+    "uncollapsed_width": 240
+  },
+  "extensions": {
+    "ui": {
+      "developer_mode": true
+    }
+  },
+  "browser": {
+    "has_seen_welcome_page": true
+  }
+}

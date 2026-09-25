@@ -1,0 +1,103 @@
+{
+  "comment": "Everyday-looking layout for colour checks (a mix of collapsed and expanded groups). All content is made up.",
+  "bounds": {
+    "left": 48,
+    "top": 28,
+    "width": 1216,
+    "height": 760
+  },
+  "items": [
+    {
+      "group": "Projects",
+      "color": "green",
+      "collapsed": true,
+      "tabs": [
+        {
+          "title": "Keyboard shortcuts",
+          "icon": "#5F6368"
+        },
+        {
+          "title": "Release notes",
+          "icon": "#3C78D8"
+        }
+      ]
+    },
+    {
+      "group": "Hardware",
+      "color": "green",
+      "collapsed": true,
+      "tabs": [
+        {
+          "title": "Battery tips",
+          "icon": "#6AA84F"
+        },
+        {
+          "title": "Display settings",
+          "icon": "#8E7CC3"
+        }
+      ]
+    },
+    {
+      "group": "閱讀清單",
+      "color": "cyan",
+      "tabs": [
+        {
+          "title": "Reading list",
+          "icon": "#45818E"
+        },
+        {
+          "title": "Long read: slow software",
+          "icon": "#CC4125"
+        }
+      ]
+    },
+    {
+      "title": "Weekly planner",
+      "icon": "#E69138"
+    },
+    {
+      "title": "Notes",
+      "icon": "#F1C232"
+    },
+    {
+      "group": "Research",
+      "color": "grey",
+      "collapsed": true,
+      "tabs": [
+        {
+          "title": "Case notes",
+          "icon": "#674EA7"
+        },
+        {
+          "title": "Research log",
+          "icon": "#3D85C6"
+        }
+      ]
+    },
+    {
+      "title": "Travel checklist",
+      "icon": "#6AA84F",
+      "active": true
+    },
+    {
+      "title": "Monitor comparison",
+      "icon": "#3C78D8"
+    },
+    {
+      "title": "Trackpad settings explained",
+      "icon": "#999999"
+    },
+    {
+      "title": "Weather",
+      "icon": "#0B8043"
+    },
+    {
+      "title": "Recipes to try",
+      "icon": "#E06666"
+    },
+    {
+      "title": "New tab ideas",
+      "icon": "#4A86E8"
+    }
+  ]
+}

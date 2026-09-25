@@ -1,0 +1,47 @@
+{
+  "id": "paper-sidebar",
+  "version": "1.0.1",
+  "name": {
+    "en": "Paper Sidebar",
+    "zh_TW": "紙白側欄"
+  },
+  "summary": {
+    "en": "All-white vertical tabs with an orange marker on the current tab. A clean, colors-only theme. No permissions.",
+    "zh_TW": "全白的垂直分頁，目前分頁左側有一條橘色標記。簡潔的配色主題，不需任何權限。"
+  },
+  "colors": {
+    "frame": "#FFFFFF",
+    "frame_inactive": "#FFFFFF",
+    "background_tab": "#FFFFFF",
+    "background_tab_inactive": "#FFFFFF",
+    "toolbar": "#FFFFFF",
+    "tab_text": "#000000",
+    "tab_background_text": "#000000",
+    "tab_background_text_inactive": "#000000",
+    "toolbar_text": "#000000",
+    "bookmark_text": "#000000",
+    "omnibox_text": "#000000",
+    "ntp_text": "#000000",
+    "toolbar_button_icon": "#4D4D4D",
+    "omnibox_background": "#F1F3F4",
+    "ntp_background": "#FFFFFF",
+    "ntp_link": "#1C73E3"
+  },
+  "marker": {
+    "color": "#FF9500",
+    "x": [
+      1,
+      7
+    ],
+    "y": [
+      14,
+      46
+    ],
+    "radius": 3
+  },
+  "notes": {
+    "toolbar": "Active tab == toolbar in Chrome, and the toolbar colour also paints the toolbar row, infobars and the frame around web content. It is white so the rest of the window stays white.",
+    "marker": "The active tab is marked with the theme_toolbar image. Chrome tiles that image from each tab's own top-left corner at 1 image px = 1 device px, but from the window's left edge on the toolbar, so a capsule at image x 1-7 shows on the active tab and stays hidden behind the sidebar on the toolbar. y 14-46 matches the favicon on a 60px (2x) tab. Hovered tabs also show it.",
+    "group_chips": "Tab-group chip colors are not themeable; a white background_tab makes Chrome use its light group palette."
+  }
+}
