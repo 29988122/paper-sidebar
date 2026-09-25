@@ -6,7 +6,7 @@
 
 | 用途 | 檔案 |
 |---|---|
-| 套件 | `dist/paper-sidebar-1.0.1.zip`（目前版本） |
+| 套件 | `dist/paper-sidebar-1.0.2.zip`（目前版本） |
 | 商店 icon 128×128 | `store/icon-128.png` |
 | 小型宣傳圖 440×280 | `store/promo-440x280.png` |
 | 螢幕截圖 1280×800 | `store/screenshots/*.png` |
@@ -21,7 +21,7 @@
    - 語言：English。
    - 上傳 icon、宣傳圖、螢幕截圖。
 4. **隱私權**分頁（如果主題也有顯示這一頁）：
-   - 單一用途：Changes Chrome's colors so the vertical tab sidebar is white, with an orange marker on the current tab.
+   - 單一用途：Changes Chrome's colors to a soft grey tab sidebar with an orange marker on the current tab.
    - 權限：無；遠端程式碼：否；不收集使用者資料（勾選各項聲明）。
 5. **發布**分頁：免費、所有地區、**公開**。
 6. 按「提交審查」（這一步請你自己按）。審查通常幾天，最長可能幾週。
@@ -40,4 +40,9 @@
    - 刪掉舊的 3 張截圖，改上傳 `store/screenshots` 裡的新圖（`60-hero`、`61-states`、`30-before-after`）；
    - 小型宣傳圖換成新的 `store/promo-440x280.png`，icon 換成新的 `store/icon-128.png`；
    - 說明文字換成 `listing.en.md`／`listing.zh-TW.md` 的新版本。
+3. 按「提交審查」。
+
+## 1.0.2 更新（Firefox 風格：淡灰側欄＋白色網頁）
+1. 資訊主頁 → 紙白側欄 → **套件** → 上傳新套件 → 選 `dist/paper-sidebar-1.0.2.zip`（如果 1.0.1 還在審查中，可以先取消審查再上傳）。
+2. **商店資訊**：截圖、宣傳圖、icon、說明文字全部換成目前 `store/` 裡的新版本。
 3. 按「提交審查」。

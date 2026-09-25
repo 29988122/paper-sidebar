@@ -1,16 +1,16 @@
 # Paper Sidebar — store listing (English)
 
 **Name** (from manifest): Paper Sidebar
-**Summary** (from manifest, ≤132): All-white vertical tabs with an orange marker on the current tab. A clean, colors-only theme. No permissions.
+**Summary** (from manifest, ≤132): Soft grey tab sidebar, white pages, and an orange marker on the current tab. A calm, colors-only theme. No permissions.
 **Category**: Themes → Minimalist (or Colors)
 **Language**: English
 
 ## Detailed description
 
-Paper Sidebar makes Chrome's vertical tabs calm and paper-white.
+Paper Sidebar gives Chrome's vertical tabs a calm, paper-like look: soft grey around, white pages in the middle.
 
-• White tab sidebar, toolbar and window frame: no grey bands
-• The current tab is marked with a small orange bar next to its icon
+• Soft grey tab sidebar (#F2F2F2), a lighter toolbar and page frame (#FAFAFA), white pages
+• The current tab is a lighter pill with a small orange bar next to its icon
 • Crisp black tab titles; other tabs stay flat and quiet
 • Tab groups keep Chrome's own bright group colors
 • Looks the same whether your system is in light or dark mode
@@ -26,7 +26,7 @@ Good to know
 • To remove it: Settings → Appearance → Theme → Reset to default.
 
 ## Privacy tab
-• Single purpose: Changes Chrome's colors so the vertical tabs are white, with an orange marker on the current tab.
+• Single purpose: Changes Chrome's colors to a soft grey tab sidebar with an orange marker on the current tab.
 • Permissions: none
 • Remote code: No
 • Data usage: collects no user data (tick the certifications)

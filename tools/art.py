@@ -234,11 +234,11 @@ def promo(palette, w=440, h=280, s=2):
     size = min(_fit(part, 38, BOLD, max_w) for part in name)
     for i, part in enumerate(name):
         c.text(tx, 78 + i * 40, part, size, "#000000", BOLD)
-    sub = ["All-white vertical tabs,", "orange current tab"]
+    sub = ["Soft grey tabs, white pages,", "orange current tab"]
     ss = min(_fit(t, 15, MEDIUM, max_w) for t in sub)
     for i, t in enumerate(sub):
         c.text(tx, 160 + i * 20, t, ss, "#4D4D4D", MEDIUM)
-    for i, col in enumerate(("#FFFFFF", palette["marker"]["color"], "#000000")):
+    for i, col in enumerate((colors["frame"], palette["marker"]["color"], "#FFFFFF")):
         cx = tx + 11 + i * 30
         c.circle(cx, 222, 11, OUTLINE)
         c.circle(cx, 222, 10, col)

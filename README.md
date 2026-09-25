@@ -2,7 +2,7 @@
 
 **English** · [繁體中文](README.zh-TW.md)
 
-A colors-only Chrome theme for Chrome's native **vertical tabs**: everything stays white, and the current tab gets a small orange marker next to its icon.
+A colors-only Chrome theme for Chrome's native **vertical tabs**, modelled on Firefox's light theme: a soft grey tab sidebar, white pages, and a small orange marker on the current tab.
 
 [![Install from the Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Install-FF9500?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/paper-sidebar/fbomcfigjianejcinmaloifgaladakic)
 
@@ -12,8 +12,8 @@ A colors-only Chrome theme for Chrome's native **vertical tabs**: everything sta
 
 ## Features
 
-- White tab sidebar, toolbar and window frame: no grey or tinted bands.
-- The current tab is marked with an orange (#FF9500) capsule, the same height as the tab icon.
+- Soft grey tab sidebar (#F2F2F2), a lighter toolbar and page frame (#FAFAFA), and white pages, like Firefox's light theme. No bluish tint.
+- The current tab is a lighter pill with an orange (#FF9500) capsule next to its icon, the same height as the icon.
 - Black tab titles; other tabs stay flat.
 - Tab groups keep Chrome's own group colors.
 - Looks the same in macOS light and dark mode.
@@ -31,7 +31,7 @@ To remove the theme: Settings → Appearance → Theme → **Reset to default**.
 
 A Chrome theme cannot style the browser UI with CSS; it only provides colors and images. Two Chrome behaviours shape this theme:
 
-1. **The active tab always uses the `toolbar` color.** The same color also paints the toolbar row, infobars and the frame around the page. A grey active tab therefore means a grey toolbar and a grey frame. So `toolbar` is white here, which leaves the active tab white too.
+1. **The active tab always uses the `toolbar` color.** The same color also paints the toolbar row, infobars and the frame around the page. A dark active tab therefore means a dark toolbar and frame. Here `toolbar` is #FAFAFA and the sidebar is #F2F2F2, so the active tab reads as a slightly lighter pill and the page frame stays light.
 2. **The marker is an image.** Chrome paints the `theme_toolbar` image in two places. On a tab it starts at the tab's own top-left corner, at 1 image pixel per device pixel. On the toolbar it starts at the window's left edge. A small capsule in the image's top-left corner therefore appears on the active tab, and on the toolbar that part of the image sits behind the sidebar.
 
 Colors and the marker's size and position live in [`palette.json`](palette.json). Marker coordinates are device pixels on a 2× (Retina) display, where a tab is 60 px tall and its icon spans y 14–45.

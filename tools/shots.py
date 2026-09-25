@@ -95,7 +95,7 @@ def compare(before, after, out, name, sidebar_px=480, height_px=1062):
     ay = 70 + 694 // 2  # arrow between the panels (drawn: the font has no arrow glyph)
     d.line([(396 * s, ay * s), (452 * s, ay * s)], fill="#6B6B6B", width=4 * s)
     d.polygon([(460 * s, ay * s), (446 * s, (ay - 9) * s), (446 * s, (ay + 9) * s)], fill="#6B6B6B")
-    for i, line in enumerate(("All white.", "Orange marker", "on the current tab.")):
+    for i, line in enumerate(("Soft grey tabs.", "White pages.", "Orange current tab.")):
         d.text((840 * s, (330 + i * 54) * s), line, font=font(38 * s), fill="#000000", anchor="lm")
     out = Path(out)
     out.parent.mkdir(parents=True, exist_ok=True)
